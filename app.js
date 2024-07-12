@@ -25,3 +25,4 @@ app.get('*', (req, res) => {
 app.listen(PORT, () => {
   console.log(`http://localhost:${PORT}/user`);
 });
+// 포트 뒤에 user 나중에 수정필요 (의논필요)
